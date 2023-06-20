@@ -1,0 +1,94 @@
+.container{
+    background:#171717;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 120vh;
+    color: whitesmoke;
+    
+}
+.input-container{
+    margin: 30px;
+}
+.input{
+    color: azure;
+    background-color: #272727;
+    border:1px solid rgb(46, 43, 43);
+    border-radius: 5px;
+    height: 30px;
+    width:180px;
+    font-size: 15px;
+    margin: 5px;
+}
+
+
+.btn{
+    height: 29px;
+    border: none;
+    border-radius: 5px;
+    background-color:#4db649;
+    color: black;
+    cursor: pointer;
+    
+}
+
+.btn:hover{
+    background-color:whitesmoke;
+}
+
+.info{
+    color: whitesmoke;
+}
+
+h1{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2px;
+}
+.weather-status{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+margin: 15px;
+}
+
+.cloud{
+    color: whitesmoke;
+    background-color: #272727;
+    font-size: 20px;
+    border-radius: 9px;
+    padding: 10px;
+}
+.max-min{
+    display: flex;
+    justify-content: center;
+    flex-direction:row;
+    gap: 15px;
+    margin: 5px;
+}
+.weather-control{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap: 15px;
+    margin: 25px;
+}
+.cards{
+    display: flex;
+    /* justify-content: center; */
+    background-color: #272727;
+    border-radius: 10px;
+    padding: 20px;
+}
+.cards p {
+    margin: 2px;
+    font-size: medium;
+}
+
+.icon-details{
+display: flex;
+align-items: center; 
+color:whitesmoke;
+}
+
+         
